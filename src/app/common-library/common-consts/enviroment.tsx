@@ -12,7 +12,7 @@ export const CERTIFICATE_EXP = 1000 * 60 * 60;
 export const PROJECT_NAME = 'vncheck';
 // export const APP_TITLE: string = process.env.REACT_APP_TITLE ?? '';
 export const API_BASE_URL = (() => {
-  if (REACT_APP_ENV === 'mock' || REACT_APP_ENV === 'production') return '/api';
+  if (REACT_APP_ENV === 'mock') return '/api';
   if (process.env.REACT_APP_API_BASE_URL) {
     if (process.env.REACT_APP_API_BASE_URL.charAt(0) === ':') {
       return (
