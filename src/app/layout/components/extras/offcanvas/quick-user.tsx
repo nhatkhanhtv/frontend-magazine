@@ -76,7 +76,7 @@ export function QuickUser() {
                 Sign Out
               </Link> */}
             <button className="btn btn-light-primary btn-bold" onClick={logoutClick}>
-              Đăng xuất
+              Log out
             </button>
           </div>
         </div>
@@ -94,9 +94,9 @@ export function QuickUser() {
                 </div>
               </div>
               <div className="navi-text">
-                <div className="font-weight-bold">Đổi mật khẩu</div>
+                <div className="font-weight-bold">Change password</div>
                 <div className="text-muted">
-                  Thay đổi mật khẩu của bạn!
+                  Change your password!
                   {/* <span className="label label-light-danger label-inline font-weight-bold">
                     update
                   </span> */}
