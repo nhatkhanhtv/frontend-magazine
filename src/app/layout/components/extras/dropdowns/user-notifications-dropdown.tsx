@@ -97,7 +97,7 @@ export function UserNotificationsDropdown() {
           <Dropdown.Toggle as={DropdownTopbarItemToggler} id="kt_quick_notifications_toggle">
             <OverlayTrigger
               placement="bottom"
-              overlay={<Tooltip id="user-notification-tooltip">Thông báo</Tooltip>}>
+              overlay={<Tooltip id="user-notification-tooltip">Notification</Tooltip>}>
               <div
                 className="btn btn-icon btn-clean btn-lg mr-1 pulse pulse-danger"
                 id="kt_quick_notifications_toggle"
@@ -183,7 +183,7 @@ export function UserNotificationsDropdown() {
                       </Tab.Pane>
                     ) : (
                       <Tab.Pane eventKey="Events" className="p-8" key={key}>
-                        Chưa có thông báo mới
+                        No notification
                       </Tab.Pane>
                     )}
                     {/* })} */}
